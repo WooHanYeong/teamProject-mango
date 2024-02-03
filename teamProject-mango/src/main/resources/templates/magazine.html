@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<!--[if IE 7]><html class="ie ie7 no-js" lang="en-US"><![endif]--><!--[if IE 8]><html class="ie ie8 no-js" lang="en-US"><![endif]--><!--[if !(IE 7) | !(IE 8)  ]><!-->
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head><!-- Basic need -->
+	<title>Open Pediatrics</title>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<link rel="profile" href="#"><!--Google Font-->
+	<link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Dosis:400,700,500|Nunito:300,400,600' />
+	<!-- Mobile specific meta -->
+	<meta name=viewport content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone-no"><!-- CSS files -->
+	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body><!--preloading-->
+
+	<head>
+
+		<div th:insert="~{header :: headerFragment}">
+		</div>
+
+	</head>
+
+	<div class="page-single">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-sm-12 col-xs-12">
+					<div class="row">
+
+						<div class="row">
+							<div th:each="magazine, iterStat : *{magazines}" th:if="${iterStat.index lt 6}">
+								<div class="col-md-4 col-sm-12 col-xs-12">
+									<div class="blog-item-style-2"><a href="blogdetail.html"><img
+												src="images/uploads/MAGAZINE1.jpeg" alt=""></a>
+										<div class="blog-it-infor">
+											<h3><a href="blogdetail.html" th:text="${magazine.boardTitle}">MAGAZINE
+													TITLE1.....</a></h3>
+											<span class="time" th:text="${magazine.createdTime}">2023.10.19</span>
+											<p th:text="${magazine.boardContent}">MAGAZINE CONTENT1......</p>
+											<p>조회수 : <span th:text="${magazine.boardReadCount}">0</span></p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+					
+					<div class="row">
+					</div>
+					<ul class="pagination">
+						<li class="icon-prev"><a href="#"><i class="ion-ios-arrow-left"></i></a></li>
+						<li class="active"><a href="#">1</a></li>
+						<li><a href="#">2</a></li>
+						<li><a href="#">3</a></li>
+						<li><a href="#">4</a></li>
+						<li><a href="#">5</a></li>
+						<li class="icon-next"><a href="#"><i class="ion-ios-arrow-right"></i></a></li>
+					</ul>
+				</div>
+				<div class="col-md-3 col-sm-12 col-xs-12">
+					<div class="sidebar">
+						<div class="sb-search sb-it">
+							<h4 class="sb-title">Search Title</h4><input type="text" placeholder="Enter keywords">
+						</div>
+
+						<div class="sb-recentpost sb-it">
+							<h4 class="sb-title">most popular in month</h4>
+							<div class="recent-item"><span>01</span>
+								<h6><a href="#">REST CONTROLLER처리</a></h6>
+							</div>
+							<div class="recent-item"><span>02</span>
+								<h6><a href="#">REST CONTROLLER처리 </a></h6>
+							</div>
+							<div class="recent-item"><span>03</span>
+								<h6><a href="#">REST CONTROLLER처리</a></h6>
+							</div>
+						</div>
+
+
+						<!--userId가 admin일때 보이기 -->
+						<div class="searh-form">
+							<form class="form-style-1 celebrity-form" action="#">
+								<div class="row">
+									<div class="col-md-12 "><input class="submit" type="submit" value="작성하기">
+									</div>
+								</div>
+							</form>
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div><!--end of  blog grid section--><!-- footer section-->
+
+	<div th:insert="~{footer :: footerFragment}">
+	</div>
+
+	<script src="js/jquery.js"></script>
+	<script src="js/plugins.js"></script>
+	<script src="js/plugins2.js"></script>
+	<script src="js/custom.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,223 @@
+
+/* 상단 메뉴 시작*/
+
+.awardList{
+  font-family: 'Noto Sans KR', sans-serif;
+  width: auto;
+  height: 110px;
+  padding-left: 40px;
+  padding-top: 15px;
+  background-color: black;
+}
+
+.logo{
+  line-height: 80px;
+  float: left;
+  
+}
+
+.logo img{
+  vertical-align: middle;
+  padding-top: 10px;
+  height: 70px;
+}
+
+.awardList ul{
+  margin-top: 23px;
+  font-family: 'Noto Sans KR', sans-serif;	
+  float: left;
+
+}
+
+.awardList li{
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0px;
+  text-align: center;
+}
+
+.awardList a{
+  text-decoration: none;
+  color: white;
+  font-style: bold;
+  font-size: 20px;
+  text-align: center;
+}
+
+.select_Month{
+  font-family: 'Noto Sans KR', sans-serif;
+  width: auto;
+ 
+  /*
+  스트롤 이동시 고정
+
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 1000;
+  min-width: 1008px;
+ */
+
+}
+
+.select_Month ul{
+  margin-top: 0px;
+  width: 97.8%;
+  height: 30px;
+  font-family: 'Noto Sans KR', sans-serif;	
+  float: left;
+  background-color: #747474;
+ 
+}
+
+.select_Month li{
+  font-family: 'Noto Sans KR', sans-serif;
+  list-style-type: none;
+  float: left;
+  margin-right: 30px;
+  margin-top: 0px;
+  text-align: center;
+  text-decoration-line: none;
+
+}
+
+.select_Month li a{
+  text-decoration-line: none;
+}
+
+
+/* 상단 메뉴 종료*/
+
+
+
+
+
+/* 투표 주차 및 남은시간 전체 시작*/
+.show_Vote_Summary{
+  padding-left: 150px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.area {
+  font-family: 'Noto Sans KR', sans-serif;
+
+}
+
+.voteInfo-area{
+  display: grid;
+  grid-template-columns: 430px 320px;
+
+}
+.timeCount{
+  font-size: 30px;
+}
+
+.voteTot{
+  font-size: 30px;
+}
+
+/* 투표 주차 및 남은시간 전체 종료*/
+
+
+
+/* 1위 2위 배틀 시작 */
+.battle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px auto;
+    position: relative;
+    max-width: 90vw;
+    width: 800px;
+}
+
+.battle img{
+    width: 300px;
+}
+.battle_totPercent{
+  display: grid;
+  grid-template-columns: 145px 50px 40px;
+}
+
+.battle_left_name{
+text-align: center;
+}
+
+.battle_right_name{
+    text-align: center;  
+}
+
+.battle button{
+    display: block;
+    position: relative;
+    width: 256px;
+    height: 48px;
+    overflow: hidden;
+    font-size: 20px;
+    line-height: 0;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+/* 1위 2위 배틀 종료*/
+
+
+/* 1위~20위 전체리스트 시작*/
+.battle_list{
+    display: grid;
+    grid-template-columns: 320px 320px 320px 320px 320px;
+    justify-content: center;
+}
+
+.battle_rank h1{
+  color: #FFBB00;
+}
+
+.battle_rank a{
+  color: black;
+  font-size: 25px;
+}
+
+
+.battle_rank img{
+    width: 300px;
+    height: 300px;
+}
+
+.vote_percentage-bar{
+  display: grid;
+  grid-template-columns: 50px 240px;
+  margin-bottom: 20px;
+}
+
+.percentage-bar {
+  margin-top: 5px;
+  width: 100%;
+  height: 10px;
+  background-color: #dedede;
+  font-weight: 600;
+  font-size: .8rem;
+}
+
+.percentage-bar .percentage1 {
+  width: 72%; /* 나타내고자 하는 퍼센트 값 --> 추후*/
+  height: 10px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
+
+.percentage-bar .percentage2 {
+  width: 60%; /* 나타내고자 하는 퍼센트 값 --> 추후*/
+  height: 10px;
+  padding: 0;
+  text-align: center;
+  background-color: #4F98FF;
+  color: #111;
+}
