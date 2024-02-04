@@ -78,4 +78,4 @@
 ![관리자 페이지](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/2840e70c-7cd5-46af-afcc-429f289bc70c)
 * 회원목록, 게시판현황, 상품리스트 등을 관리하고 상품을 삭제 및 추가할 수 있는 페이지입니다.<br/><br/><br/>
 
-## 느낀점
+
