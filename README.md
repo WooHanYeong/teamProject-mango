@@ -73,12 +73,13 @@
 
 
 
-#### 공지사항 페이지
-![게시판](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/3db2d3ef-33f3-4ac6-bd3f-c5ca327232b4)
-* 페이지 내 안내사항 등 공지사항을 올리는 게시판 페이지입니다.
-![찾아오는길](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/eefab367-622d-4bde-9258-d31ac6ef083b)
-* 게시판 항목 내, API를 사용하여 찾아오는 길을 안내하였습니다.<br/><br/><br/>
-
+#### 게시판 페이지
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/f8462b49-d3a2-4333-acb7-d913713a3e96)
+* 공지사항, FAQ, 찾아오는길, 1대1문의 등을 볼 수 있는 페이지 입니다. 검색, 정렬, 등의 기능이 있습니다.
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/26073f23-2ab1-43d5-b7e2-bc5f94e6f5a2)
+* 이벤트 , 매거진 등을 볼 수 있는 페이지 입니다. 검색, 정렬, 등의 기능이 있습니다.
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/35ea67da-9cae-4a05-b0f2-503ec7990657)
+*게시판 디테일 페이지 입니다. 매거진의 글의 일부로, 사진, 영상등이 들어가고 댓글까지 서비스를 이용 할 수 있습니다 <br/><br/><br/>
 
 #### 관리자 페이지
 ![관리자 페이지](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/2840e70c-7cd5-46af-afcc-429f289bc70c)
