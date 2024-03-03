@@ -1,4 +1,3 @@
-![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/7c17cae3-aa16-47e9-9355-e69539ac25e3)<br/><br/><br/>
 
 # MANGO (음악 스트리밍 사이트)
 음악 스트리밍 사이트, Spring 프로젝트
@@ -49,25 +48,30 @@
 * 회원가입 항목에서 회원가입을 할 수 있습니다.<br/><br/><br/>
 
 
-#### 음악, 굿즈, 티켓 페이지
-![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/335617f1-01f3-4b7d-ba1f-9a88493e1674)
-* 상품 페이지에서 각 노래제목 , 가수 이름으로 검색이 가능합니다.
-* ![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/3da48c17-1afc-4176-8aa4-255025f870a4)
+#### 음악 페이지
+음악 리스트와 디테일 페이지입니다. 랭킹에 따른 정렬, 검색기능 음악추가기능 등이 있습니다.
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/0b0a3415-f96e-48e7-afbb-e9846cc5de8a)
 
-* 음악을 클릭하면 상세페이지에서 희망하는 노래의 YOUTUBE 뮤직비디오 등 시청이 가능합니다.<br/><br/><br/>
-![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/b450329d-d46e-433b-a6ca-6eb4d563159e)
-![티켓](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/c0a2eb2f-940f-4b58-b2ea-05954400e25b)
-* 페이지에서 희망하는 굿즈 및 티켓 구매할 수 있습니다.<br/><br/>
+디테일에서는 음악재생과 댓글 , MV등의 서비스를 볼 수 있습니다.
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/578c867c-8f41-4de5-be50-a30da7dcd0d0)
 
-
-#### 장바구니 페이지
-![장바구니](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/fd465633-8dbb-4701-b003-9ef8d48e53e3)
-* 장바구니 페이지 주문한 상품리스트 확인이 가능하며 제품의 수량 변경, 삭제, 주문 등이 가능합니다.<br/><br/><br/>
+#### 굿즈 페이지
+굿즈 리스트 페이지입니다. 검색기능이 존재합니다.
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/c1ca0f47-cb00-4b17-8cab-09d517f623ef)
 
 #### 투표페이지
-![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/2620d35c-411b-406d-8a57-61fbd4996aba)
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/686c0f63-1bec-4b6e-932d-353f0f90d6a9)
 * MANGO 아티스트 투표 페이지이며, 회원이 응원하는 아티스트에 대해 투표를 할 수 있습니다.
 * 설정된 투표 시간이 종료되면, 투표는 마감이 됩니다. <br/><br/><br/>
+
+
+#### 장바구니 /주문  페이지
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/fa750640-06ee-4274-9b2c-8e99286dfba9)
+
+장바구니 , 주문페이지 입니다.굿즈 등의 상품을 장바구니에 넣은 페이지, 주문 후의 주문내역을 확인할 수 있는 페이지 입니다.  <br/><br/><br/>
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/43f5075b-dd78-4e9f-8561-b9e3ac39fc42)
+
+
 
 #### 공지사항 페이지
 ![게시판](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/3db2d3ef-33f3-4ac6-bd3f-c5ca327232b4)
