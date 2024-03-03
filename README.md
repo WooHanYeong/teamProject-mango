@@ -1,4 +1,4 @@
-<br/><br/><br/>
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/7c17cae3-aa16-47e9-9355-e69539ac25e3)<br/><br/><br/>
 
 # MANGO (음악 스트리밍 사이트)
 음악 스트리밍 사이트, Spring 프로젝트
@@ -50,10 +50,12 @@
 
 
 #### 음악, 굿즈, 티켓 페이지
-![음악페이지](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/fb8f5d92-3985-4b66-9e7b-95bf08a1c38d)
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/335617f1-01f3-4b7d-ba1f-9a88493e1674)
 * 상품 페이지에서 각 노래제목 , 가수 이름으로 검색이 가능합니다.
+* ![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/3da48c17-1afc-4176-8aa4-255025f870a4)
+
 * 음악을 클릭하면 상세페이지에서 희망하는 노래의 YOUTUBE 뮤직비디오 등 시청이 가능합니다.<br/><br/><br/>
-![굿즈 페이지](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/e5b2b4f9-3743-4812-ba2a-8037071fd3e4)
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/b450329d-d46e-433b-a6ca-6eb4d563159e)
 ![티켓](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/c0a2eb2f-940f-4b58-b2ea-05954400e25b)
 * 페이지에서 희망하는 굿즈 및 티켓 구매할 수 있습니다.<br/><br/>
 
@@ -63,7 +65,7 @@
 * 장바구니 페이지 주문한 상품리스트 확인이 가능하며 제품의 수량 변경, 삭제, 주문 등이 가능합니다.<br/><br/><br/>
 
 #### 투표페이지
-![투표](https://github.com/2023-05-JAVA-DEVELOPER-143/web-project-team2-bbbb/assets/133833066/bca7d131-f1f9-462e-b682-e9c0df2b6018)
+![image](https://github.com/WooHanYeong/teamProject-mango/assets/133833197/2620d35c-411b-406d-8a57-61fbd4996aba)
 * MANGO 아티스트 투표 페이지이며, 회원이 응원하는 아티스트에 대해 투표를 할 수 있습니다.
 * 설정된 투표 시간이 종료되면, 투표는 마감이 됩니다. <br/><br/><br/>
 
